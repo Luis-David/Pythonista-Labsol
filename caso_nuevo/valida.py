@@ -3,6 +3,7 @@
 """script valida"""
 import caso_nuevo.datos as datos
 
+#Se validad los tipos de datos que el usuario ingresa
 def reglas(dato, campo):
     if campo == "Carrera" and dato not in datos.carreras:
         return False
